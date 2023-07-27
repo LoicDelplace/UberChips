@@ -1,8 +1,10 @@
 # 🇫🇷 Projet UberChips - Livraison d'apéritifs et de chips à domicile
 
-Bienvenue dans le projet UberChips ! 🚀 Ce projet a été créé pour illustrer l'utilisation d'une méthode Agile dans le développement d'une application de livraison à domicile d'apéritifs et de chips. Nous avons réalisé des ébauches graphiques sous Figma pour simuler à quoi ressemblerait notre site après un sprint, nous permettant ainsi de simuler une revue de sprint.
+Bienvenue dans le projet UberChips !
 
-ℹ️ Note : Ce repository est une reproduction utilisée à des fins d'apprentissage pour mieux maîtriser VueJS. Le projet initial a été développé en 1 jour, sans nécessairement respecter les normes actuelles de responsive design ou d'UX/UI.
+🚀 Ce projet a été créé pour illustrer l'utilisation d'une méthode Agile dans le développement d'une application de livraison à domicile d'apéritifs et de chips. Nous avons réalisé des ébauches graphiques sous Figma pour simuler à quoi ressemblerait notre site après un sprint, nous permettant ainsi de simuler une revue de sprint.
+
+ℹ️ Ce repository est une reproduction utilisée à des fins d'apprentissage pour mieux maîtriser VueJS. Le projet initial (sous figma) a été développé en 1 jour, sans nécessairement respecter les normes actuelles de responsive design ou d'UX/UI.
 
 ## 📝 Description du projet
 
@@ -39,9 +41,13 @@ Pour installer les dépendances du projet, suivez les étapes ci-dessous :
 
 5. Une fois l'installation terminée, vous êtes prêt à lancer le projet localement.
 
+   ```
+   npm run dev
+   ```
+
 6. Ouvrez votre navigateur et accédez à l'adresse suivante : `http://localhost/`
 
-Vous voilà prêt à explorer le projet UberChips avec VueJS ! amusez-vous bien ! 🎉
+Vous voilà prêt à explorer le projet UberChips avec VueJS ! Amusez-vous bien ! 🎉
 
 ---
 
@@ -49,7 +55,7 @@ Vous voilà prêt à explorer le projet UberChips avec VueJS ! amusez-vous bien 
 
 Welcome to the UberChips project! 🚀 This project was created to demonstrate the use of Agile methodology in developing a home delivery application for appetizers and chips. We created graphical sketches using Figma to simulate what our website would look like after a sprint, enabling us to conduct a sprint review.
 
-ℹ️ Note: This repository is a reproduction used for learning purposes to improve our understanding of VueJS. The original project was developed in 1 day, without necessarily adhering to current responsive design or UX/UI standards.
+ℹ️ This repository is a reproduction used for learning purposes to improve our understanding of VueJS. The original project was developed in 1 day (on Figma), without necessarily adhering to current responsive design or UX/UI standards.
 
 ## 📝 Project Description
 
@@ -85,6 +91,10 @@ To install the project dependencies, follow the steps below:
    ```
 
 5. Once the installation is complete, you are ready to run the project locally.
+
+   ```
+   npm run dev
+   ```
 
 6. Open your browser and go to the following address: `http://localhost/`
 
