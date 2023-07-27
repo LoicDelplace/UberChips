@@ -1,0 +1,9 @@
+@import url(https://fonts.bunny.net/css?family=poppins:400,500,500i,600,700);
+
+@font-face {
+    font-family: 'poetsenoneregular';
+    src: url('@/assets/fonts/poetsenone-regular-webfont.woff2') format('woff2'),
+         url('@/assets/fonts/poetsenone-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
