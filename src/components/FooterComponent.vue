@@ -115,19 +115,4 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-  footer {
-    flex-direction: column;
-    height: 100%;
-    margin-top: 2em;
-  }
-
-  .newsLettersInputContainer {
-    flex-direction: column;
-  }
-
-  .newsLettersInputContainer input {
-    margin-bottom: 1em;
-  }
-}
 </style>
