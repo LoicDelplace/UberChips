@@ -6,6 +6,8 @@ Bienvenue dans le projet UberChips !
 
 ℹ️ Ce repository est une reproduction utilisée à des fins d'apprentissage pour mieux maîtriser VueJS. Le projet initial (sous figma) a été développé en 1 jour, sans nécessairement respecter les normes actuelles de responsive design ou d'UX/UI.
 
+🖥️ Ce dépôt a été spécifiquement conçu pour une utilisation en version bureautique uniquement. Veuillez noter qu'il n'est pas adapté aux appareils mobiles et n'est donc pas responsive.
+
 ## 📝 Description du projet
 
 UberChips est un projet de livraison à domicile d'apéritifs et de chips. L'objectif est de mettre en œuvre les concepts de développement Agile tout en se familiarisant avec les technologies suivantes :
@@ -56,6 +58,8 @@ Vous voilà prêt à explorer le projet UberChips avec VueJS ! Amusez-vous bien 
 Welcome to the UberChips project! 🚀 This project was created to demonstrate the use of Agile methodology in developing a home delivery application for appetizers and chips. We created graphical sketches using Figma to simulate what our website would look like after a sprint, enabling us to conduct a sprint review.
 
 ℹ️ This repository is a reproduction used for learning purposes to improve our understanding of VueJS. The original project was developed in 1 day (on Figma), without necessarily adhering to current responsive design or UX/UI standards.
+
+🖥️ This repository has been specifically designed for desktop use only. Please note that it is not suitable for mobile devices and is therefore not responsive.
 
 ## 📝 Project Description
 
