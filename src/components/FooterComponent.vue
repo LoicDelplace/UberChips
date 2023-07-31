@@ -28,17 +28,6 @@
 <script setup></script>
 
 <style scoped lang="scss">
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 6em;
-  background-color: #8ee4af;
-  color: #edf5e1;
-  font-size: 1.5em;
-  position: static;
-  width: 100%;
-}
 
 .footerHover {
   &:hover {
