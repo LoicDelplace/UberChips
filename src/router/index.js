@@ -4,6 +4,7 @@ import ProductsView from '../views/ProductsView.vue';
 import CartView from '../views/CartView.vue';
 import PageNotFound from '../views/PageNotFound.vue';
 import AccountsView from '../views/AccountsView.vue';
+import ResetPasswordView from '@/views/ResetPasswordView.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,6 +25,11 @@ const router = createRouter({
       path: '/accounts',
       name: 'accounts',
       component: AccountsView
+    },
+    {
+      path: '/resetPassword',
+      name: 'resetPassword',
+      component: ResetPasswordView
     },
     // {
     //   path: '*',
