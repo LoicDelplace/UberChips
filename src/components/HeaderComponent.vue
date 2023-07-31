@@ -8,14 +8,14 @@
       </div>
     </div>
     <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/products">Nos Produits</RouterLink>
-      <RouterLink to="/404" id="paoloNav"
+      <RouterLink :to="{name: 'home'}">Home</RouterLink>
+      <RouterLink :to="{name: 'products'}">Nos Produits</RouterLink>
+      <RouterLink :to="{name: 'not-found'}" id="paoloNav"
         ><span id="newItem">Nouveauté</span>Paolo Nu
         <span id="subTitle">(bien croquant)</span></RouterLink
       >
-      <RouterLink to="/accounts">Mon compte</RouterLink>
-      <RouterLink to="/cart"><img src="@/assets/images/cart.svg" id="cartSvg" /></RouterLink>
+      <RouterLink :to="{name: 'login'}">Mon compte</RouterLink>
+      <RouterLink :to="{name: 'cart'}"><img src="@/assets/images/cart.svg" id="cartSvg" /></RouterLink>
     </nav>
   </header>
 </template>
