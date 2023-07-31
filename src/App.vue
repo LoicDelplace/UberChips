@@ -1,7 +1,7 @@
 <template>
   <Header />
   <RouterView />
-  <Footer/>
+  <Footer />
 </template>
 
 <script setup>
@@ -18,12 +18,33 @@ import Footer from '@/components/FooterComponent.vue'
 }
 
 body {
-  font-family: 'poetsenoneregular',sans-serif;
+  font-family: 'poetsenoneregular', sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
   background-color: #edf5e1;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  position:relative;
+  padding-bottom:2em;
 }
 
+body::after {
+  content: '';
+  display: block;
+  height: 10em; /* Footer's height*/
+}
+
+footer {
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8ee4af;
+  color: #edf5e1;
+  font-size: 1.5em;
+  height: 8em;
+}
 </style>
