@@ -25,7 +25,7 @@ Pour installer les dépendances du projet, suivez les étapes ci-dessous :
 2. Clonez ce repository sur votre ordinateur.
 
    ```
-   npm clone https://github.com/LoicDelplace/UberChips.git
+   git clone https://github.com/LoicDelplace/UberChips.git
    ```
 
 3. Accédez au répertoire du projet.
@@ -78,7 +78,7 @@ To install the project dependencies, follow the steps below:
 2. Clone this repository to your computer.
 
    ```
-   npm clone https://github.com/LoicDelplace/UberChips.git
+   git clone https://github.com/LoicDelplace/UberChips.git
    ```
 
 3. Navigate to the project directory.
