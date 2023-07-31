@@ -18,11 +18,11 @@
             <form class="authForm">
               <div class="mailContainer">
                 <label for="email">Votre email <span class="requiredStar">*</span> :</label>
-                <input type="email" id="email" placeholder="Votre email..." />
+                <input type="email" id="email" placeholder="Votre email..." required/>
               </div>
               <div class="passwordContainer">
                 <label for="password">Mot de passe <span class="requiredStar">*</span> : </label>
-                <input type="password" id="password" placeholder="Mot de passe..." />
+                <input type="password" id="password" placeholder="Mot de passe..." required/>
               </div>
               <p class="forgotPassword">
                 <router-link to="resetPassword">Mot de passe oublié ?</router-link>
