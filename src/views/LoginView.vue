@@ -53,7 +53,7 @@ const router = useRouter();
 
 onBeforeMount(() => {
   if (isConnected.value) {
-    router.push({ name: 'login' });
+    router.push({ name: 'account' });
   }
 }); 
 
