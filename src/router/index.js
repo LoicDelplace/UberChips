@@ -3,7 +3,9 @@ import HomeView from '../views/HomeView.vue';
 import ProductsView from '../views/ProductsView.vue';
 import CartView from '../views/CartView.vue';
 import PageNotFound from '../views/PageNotFound.vue';
-import AccountsView from '../views/AccountsView.vue';
+import LoginView from '../views/LoginView.vue';
+import RegisterView from '@/views/RegisterView.vue';
+import AccountView from '@/views/AccountView.vue';
 import ResetPasswordView from '@/views/ResetPasswordView.vue';
 
 const router = createRouter({
@@ -22,14 +24,24 @@ const router = createRouter({
       name: 'cart',
       component: CartView
     },{
-      path: '/accounts',
-      name: 'accounts',
-      component: AccountsView
+      path: '/login',
+      name: 'login',
+      component: LoginView
     },
     {
-      path: '/resetPassword',
+      path: '/login/resetPassword',
       name: 'resetPassword',
       component: ResetPasswordView
+    },
+    {
+      path: '/login/register',
+      name: 'register',
+      component: RegisterView
+    },
+    {
+      path: '/account/',
+      name: 'account',
+      component: AccountView
     },
     // {
     //   path: '*',
