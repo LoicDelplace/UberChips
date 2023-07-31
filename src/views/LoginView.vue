@@ -25,7 +25,7 @@
               <input type="password" id="password" placeholder="Mot de passe..." required />
             </div>
             <p class="forgotPassword">
-              <router-link to="resetPassword">Mot de passe oublié ?</router-link>
+              <router-link :to="{name: 'resetPassword'}">Mot de passe oublié ?</router-link>
             </p>
             <div class="rememberMe">
               <input type="radio" name="rememberMe" id="rememberMe" />
@@ -37,7 +37,7 @@
       </div>
       <div class="registerLinkContainer">
         <p>Vous n'avez pas de compte ?</p>
-        <router-link to="register">Créer un compte</router-link>
+        <router-link :to="{name: 'register'}">Créer un compte</router-link>
       </div>
     </div>
     <!-- !isConnected -->
