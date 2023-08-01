@@ -2,7 +2,7 @@
   <main>
     <div class="leftSide">
       <div class="logoContainerAccount">
-        <img src="@/assets/images/Chips.png" alt="Logo Uberchips" class="logoImgAccount" />
+        <img src="/images//Chips.png" alt="Logo Uberchips" class="logoImgAccount" />
         <div class="logoTitleContainerAccount">
           <span class="logoTitleAccount">Uber</span>
           <span class="logoTitleAccount">Chips</span>

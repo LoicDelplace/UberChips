@@ -7,7 +7,7 @@
     </div>
     <div class="copyrightContainer">
       <div class="logoContainer">
-        <img src="@/assets/images/Chips.png" alt="Logo Uberchips" class="logoImg" />
+        <img src="/images//Chips.png" alt="Logo Uberchips" class="logoImg" />
         <div class="logoTitleContainer">
           <span class="logoTitle">Uber</span>
           <span class="logoTitle">Chips</span>

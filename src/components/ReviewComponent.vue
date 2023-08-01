@@ -3,8 +3,8 @@
         <h3>Avis de {{ review.nickname }}</h3>
         <p>"{{ review.content }}"</p>
         <div class="reviewStars">
-            <img class="starImg" src="@/assets/images/starFull.svg" v-for="(star,index) in review.rating" :key="index">
-            <img class="starImg" src="@/assets/images/starEmpty.svg" v-for="(star,index) in nbStarsMax-review.rating" :key="index">
+            <img class="starImg" src="/images//starFull.svg" v-for="(star,index) in review.rating" :key="index">
+            <img class="starImg" src="/images//starEmpty.svg" v-for="(star,index) in nbStarsMax-review.rating" :key="index">
         </div>
         <p class="reviewNote">Avis de {{ review.rating  }} / {{ nbStarsMax }}</p>
     </div>
