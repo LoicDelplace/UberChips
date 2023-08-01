@@ -17,22 +17,22 @@ import { ref } from 'vue'
 const bubbles = ref([
   {
     idBubble: 1,
-    icon: './src/assets/images/user.png',
+    icon: '/images//user.png',
     content: "Connecte-toi pour un paiement plus rapide ! (Puis, on vend tes données aussi..)"
   },
   {
     idBubble: 2,
-    icon: './src/assets/images/delivery.png',
+    icon: '/images//delivery.png',
     content: "Livraison gratuite et express à partir de 100€ d’achats Pas de retours possible, on est pas l’Abbé Pierre nous."
   },
   {
     idBubble: 3,
-    icon: './src/assets/images/payment.png',
+    icon: '/images//payment.png',
     content: "On accepte tout le monde ici ! Paye avec ce que tu veux (on aime l’argent)"
   },
   {
     idBubble: 4,
-    icon: './src/assets/images/customer.png',
+    icon: '/images//customer.png',
     content: "Un SAV éclaté mais on fait bien semblant, t'inquiète"
   }
 ])

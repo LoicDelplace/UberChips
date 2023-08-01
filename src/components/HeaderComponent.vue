@@ -1,7 +1,7 @@
 <template>
   <header>
     <div class="logoContainer">
-      <img src="@/assets/images/Chips.png" alt="Logo Uberchips" class="logoImg" />
+      <img src="/images//Chips.png" alt="Logo Uberchips" class="logoImg" />
       <div class="logoTitleContainer">
         <span class="logoTitle">Uber</span>
         <span class="logoTitle">Chips</span>
@@ -15,7 +15,7 @@
         <span id="subTitle">(bien croquant)</span></RouterLink
       >
       <RouterLink :to="{name: 'login'}">Mon compte</RouterLink>
-      <RouterLink :to="{name: 'cart'}"><img src="@/assets/images/cart.svg" id="cartSvg" /></RouterLink>
+      <RouterLink :to="{name: 'cart'}"><img src="/images//cart.svg" id="cartSvg" /></RouterLink>
     </nav>
   </header>
 </template>
