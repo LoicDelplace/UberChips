@@ -47,4 +47,8 @@ footer {
   font-size: 1.5em;
   height: 8em;
 }
+
+.requiredStar {
+  color: red;
+}
 </style>
